@@ -3,7 +3,7 @@ name: Run Python Script
 # Set the schedule using cron
 on:
   schedule:
-    - cron: */15 * * * *'  # This runs the job every 15M day at 6 AM UTC. Adjust as needed.
+    - cron: '*/15 * * * *'  # This runs the job every 15M day at 6 AM UTC. Adjust as needed.
   workflow_dispatch: # Allows manual triggering
 
 jobs:
