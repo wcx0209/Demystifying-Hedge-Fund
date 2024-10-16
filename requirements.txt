@@ -1,0 +1,10 @@
+pandas
+numpy
+yfinance
+hmmlearn
+ta-lib
+matplotlib
+seaborn
+scikit-learn
+joblib
+pytz
